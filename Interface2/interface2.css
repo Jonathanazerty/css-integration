@@ -1,0 +1,44 @@
+body {
+    color: white;
+    margin: auto;
+    padding: 50px;
+}
+
+.card {
+    background-color: #4b89ee;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    padding: 40px;
+    height: 100vh;
+    width: 70vh;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: .25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+hr {
+    color: white;
+    opacity: 0.5;;
+}
+
+.head2 {
+    font-size: 25px;
+}
+
+.head3 {
+    border-bottom: solid #80b0f8 2px;
+}
+
+.main1, .main2, .main3, .main4, .main5, .main6, .main7 {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-auto-flow: row;
+    font-size: small;
+    border-bottom: solid #80b0f8 2px;
+}
+
+.foot {
+    text-align: right;
+}
